@@ -147,11 +147,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="freetype.dll" />
-    <None Include="fragmentShaderM.glsl" />
-    <None Include="fragmentShaderText.glsl" />
     <None Include="packages.config" />
-    <None Include="vertexShaderM.glsl" />
-    <None Include="vertexShaderText.glsl" />
+    <None Include="shaders\fragmentShaderM.glsl" />
+    <None Include="shaders\fragmentShaderText.glsl" />
+    <None Include="shaders\vertexShaderM.glsl" />
+    <None Include="shaders\vertexShaderText.glsl" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Background.h" />

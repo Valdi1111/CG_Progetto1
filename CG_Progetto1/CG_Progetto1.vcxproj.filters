@@ -66,11 +66,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="fragmentShaderM.glsl" />
-    <None Include="fragmentShaderText.glsl" />
     <None Include="freetype.dll" />
-    <None Include="vertexShaderM.glsl" />
-    <None Include="vertexShaderText.glsl" />
+    <None Include="shaders\fragmentShaderM.glsl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="shaders\fragmentShaderText.glsl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="shaders\vertexShaderM.glsl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="shaders\vertexShaderText.glsl">
+      <Filter>File di risorse</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.h">

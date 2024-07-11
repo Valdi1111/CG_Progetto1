@@ -9,7 +9,8 @@ using namespace std;
 #pragma warning(disable:4996)
 char* ShaderMaker::readSource(string shaderFile)
 {
-	FILE* fp = fopen(shaderFile.c_str(), "rb");
+	string filePath = "shaders/" + shaderFile;
+	FILE* fp = fopen(filePath.c_str(), "rb");
 	if (fp == NULL) {
 		return NULL;
 	}
