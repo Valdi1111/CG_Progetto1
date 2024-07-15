@@ -1,1 +1,13 @@
-# CG_Progetto1
+# Progetto Computer Graphics 1
+
+Creazione progetto in opengl
+
+- navicella
+- nemici
+- shooting tramite spacebar
+- movimento tramite wasd
+- accumulo dei punti
+- vite del giocatore
+- gameover
+
+Il gioco prosegue all'infinito, non c'è una vittoria.
