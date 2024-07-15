@@ -12,3 +12,8 @@ Creazione progetto in opengl
 - gameover
 
 Il gioco prosegue all'infinito, non c'è una vittoria.
+
+### Installazione:
+Scaricare lo zip
+
+Installare i packages con `update-package -reinstall`
