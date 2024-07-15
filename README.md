@@ -2,6 +2,7 @@
 
 Creazione progetto in opengl
 
+- sfondo animato
 - navicella
 - nemici
 - shooting tramite spacebar
